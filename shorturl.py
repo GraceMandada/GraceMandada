@@ -2,7 +2,7 @@ from uuid_shortener import UuidShortener
 import uuid
 
 def shorten_url(url):
-     shortener = UuidShortener("http://akh/")
+     shortener = UuidShortener("http://grace/")
      uuid_5 = uuid.uuid5(uuid.NAMESPACE_URL,url)
      short_uuid = shortener.shorten(uuid_5)
      print(type(short_uuid))
@@ -25,4 +25,4 @@ url_dict = {}
 shorten_url(url)
 long_url = input("Enter a short url: ")
 get_original_url(long_url)
-print("Bye")
+print("have a good day")
